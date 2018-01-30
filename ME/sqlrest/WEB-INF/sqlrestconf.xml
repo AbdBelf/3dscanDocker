@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sqlrestconf>
+  <database>
+    <!--
+    
+    Hypersonic DB in process with the example Database
+    replace with your database location:port/database name
+    -->
+    <jdbc-driver-class>com.mysql.jdbc.Driver</jdbc-driver-class>
+    <database-url>jdbc:mysql://172.17.0.1:3306/fitman</database-url>
+    <user>root</user>
+    <password>fitman</password>
+    <!--
+    
+    External Hypersonic DB
+    
+    <jdbc-driver-class>org.hsqldb.jdbcDriver</jdbc-driver-class>
+    <database-url>jdbc:hsqldb:hsql://localhost</database-url>
+    <user>sa</user>
+    <password></password>
+    -->
+    <!-- 
+    
+    Inet Sprinta Driver for MS SQL Server 
+    
+    <jdbc-driver-class>com.inet.tds.TdsDriver</jdbc-driver-class>
+    <database-url>jdbc:inetdae7a:localhost:1433</database-url>
+    -->
+  </database>
+</sqlrestconf>
